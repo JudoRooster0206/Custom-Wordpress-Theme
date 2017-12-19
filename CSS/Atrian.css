@@ -12,14 +12,11 @@ The Zoo by the scorpions
 */
 *{
 	color:white;
-	font-family: 'Celtic Garamond the 2nd';
+	font-family: "Celtic Garamond the 2nd";
 	margin-bottom: 0;
 	margin:0;
 }
-@font-face {
-font-family: "Celtic Garamond the 2nd";
-src: url("CELTG___.ttf");
-}
+	
 
 #The_Header{
 	height: 60px;
@@ -28,10 +25,12 @@ src: url("CELTG___.ttf");
 	border-bottom: solid 1px #2E3B68;
 	margin-bottom: 50px;
 	background-color:black;
+	font-family: "Celtic Garamond the 2nd";
 }
 
-#The_Header h1{
+#The_Header h3{
 	float:left;
+	color: #916dff;
 }
 
 #The_Header ul{
@@ -49,6 +48,7 @@ src: url("CELTG___.ttf");
 	margin-right:5px;
 	padding-left:5px;
 }
+
 #Top_Menu li:last-child{
 	padding-right:5px;
 }
@@ -101,7 +101,7 @@ body{
 	float:left;
 	margin-left:40px;
 	display: inline;
-	width:800px;
+	width:780px;
 	height:1000px;
 	border:solid 3px #868BF3;
 	background: #130E23;
@@ -109,40 +109,106 @@ body{
 
 #Project_Section{
 	margin:20px;
-	margin-left: 90px;
+	margin-left: 95px;
 	display: block;
-	border: solid 4px #242954;
-	width: 610px;
+	border: solid 7px #ababab;
+	width: 600px;
 	height: 400px;
+	background: #fcfcfc;
 }
-article{
+#Project_Section .Project_Title{
+	padding-top:10px;
+	padding-left: 250px;
+	color: #ababab;
+}
+
+#Main_Content .Left_Button{ 
+	width:30px;
+	height:20px;
+	float: left;
+	padding-top: 100px;
+	padding-left: 70px;
+}
+
+#Main_Content .Right_Button{ 
+	width:30px;
+	height:20px;
+	float: right;
+	padding-top: 100px;
+	padding-left: 130px;
+	-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#Project_Section .Project_Img{
+	display: block;
+	margin-left: 175px;
+	width:200px;
+	height:200px;
+	border: solid 1px #e8e8e8;
+}
+
+.Project_Img img{
+	width:200px;
+	height:200px;
+}
+
+#Project_Section .Project_Description{
+	padding-top: 10px;
+	padding-left:60px;
+	width: 500px;
+	height: 200px;
+	font-size:16px;
+	font-family: 'Garamond';
+	color: #ababab;
+}
+
+#Article_Section{
 	padding-top:15px;
 	padding-left:30px;
 	padding-right:30px;
 }
 
-#Article_Title{
-	font-size:25px;
+#Article_Section .Article_Description{
+	font-family: "AGaramondPro-Regular";
+	font-size: 18px;
+}
+
+#Article_Section .Article_Title{
+	font-size:30px;
 	color: #8c75ff;
 }
 
-#Compliment_Section{
+#Tip_Section{
 	float: right;
 	display: inline;
-	width:250px;
-	height:500px;
+	width:270px;
+	height:800px;
 	border:solid 3px #868BF3;
 	background: #130E23;
+	font-family: "AGaramondPro-Regular";
+	font-size:12px;
+}
+#Tip_Section .Tip_Image{
+	width: 150px;
+	height: 150px;
+	border: solid 3px #242954;
+	margin-top: 10px;
+	margin-left: 50px;
+	display:block;
+}
+.Tip_Image img{
+	width: 125px;
+	height: 125px;
+	padding-left: 15px;
+	padding-top: 10px;
 }
 
-#Music_Box{
-	float: right;
-	display: inline;
-	width: 250px;
-	height: 160px;
-	margin-top:40px;
-	border:solid 3px #868BF3;
-	background: #130E23;
+
+#Tip_Section .Tip_Description{
+	font-size: 16px;
+	font-family: 'Garamond';
+	padding: 15px;
 }
 
 footer{
@@ -161,7 +227,7 @@ footer{
 }
 
 #FAQ{
-	padding-left:10px;
+	padding-left:190px;
 	color: #916dff;
 }
 
@@ -170,6 +236,14 @@ footer{
 	padding-right:5px;
 }
 
+@font-face {
+	font-family: "Celtic Garamond the 2nd";
+	src: url("CELTG___.ttf");
+}
+@font-face {
+	font-family: "AGaramondPro-Regular";
+	src: url("Adobe Garamond Pro Regular.ttf");
+}
 /* NiggieSmalls
 BigNutsBizzle
 */
