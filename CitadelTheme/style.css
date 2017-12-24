@@ -1,0 +1,444 @@
+/*
+Theme Name: CitadelTheme
+Author: Nicholas Burton
+Author URI: Calistoga Pl.
+Version: 1.0
+*/
+*{
+	margin-bottom: 0;
+	margin:0;
+}
+
+/*---------- Classes Start ------------*/
+.Page_Post{
+	float:left;
+	margin-left:40px;
+	display: inline;
+	width:780px;
+	height:1000px;
+	border:solid 3px #868BF3;
+	background: #130E23;
+}
+
+.Page_Title{
+	font-family: "Celtic Garamond the 2nd";
+	color: #a7aaf6;
+	border-bottom: solid 1px white;
+	width: 700px;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.Page_Content{
+	font-family: 'Garamond';
+	font-size: 22px;
+	color:white;
+	width: 600px;
+	margin-left: 25px;
+	padding:10px;
+}
+
+
+/*----------- Classes End ------------*/
+
+/*-------- Tip Section Start----------*/
+#Tip_Section{
+	float: right;
+	display: inline;
+	width:270px;
+	height:800px;
+	border:solid 3px #868BF3;
+	background: #130E23;
+	font-family: 'Garamond';
+	font-size:12px;
+}
+#Tip_Section .Tip_Image{
+	width: 150px;
+	height: 150px;
+	border: solid 3px #242954;
+	margin-top: 10px;
+	margin-left: 50px;
+	display:block;
+}
+.Tip_Image img{
+	width: 125px;
+	height: 125px;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+
+#Tip_Section .Tip_Description{
+	font-size: 16px;
+	font-family: 'Garamond';
+	padding: 15px;
+	color:white;
+}
+/*---------- Tip Section End ------------*/
+
+/*---------- Header Start-----------*/
+#The_Header{
+	height: 60px;
+	margin:0;
+	padding:0;
+	border-bottom: solid 1px #868BF3;
+	margin-bottom: 50px;
+	background-color:black;
+	font-family: "Celtic Garamond the 2nd";
+}
+
+#The_Header h1 a:visited,
+#The_Header h1 a:link{
+	text-decoration: none;
+	color: #a7aaf6;
+}
+
+#The_Header h1{
+	float:left;
+	font-family: "Celtic Garamond the 2nd";
+}
+
+#The_Header nav ul{
+	float:right;
+	padding-right:30px;
+	padding-top:15px;
+}
+
+
+#The_Header nav ul li{
+	display:inline;
+	border-left:solid 2px #393670;
+	border-right:solid 2px #393670;
+	margin-left:5px;
+	margin-right:5px;
+	padding-left:5px;
+	padding-right:5px;
+	list-style: none;
+}
+
+#The_Header li a:visited,
+#The_Header li a:link {
+	text-decoration: none;
+	color: #a7aaf6;
+}
+
+#The_Header .Top_Menu ul li a:hover{
+	color:white;
+}
+
+#The_Header .Top_Menu ul li.current-menu-item a:link,
+#The_Header .Top_Menu ul li.current-menu-item a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+/*------------- Header End --------------*/
+
+body{
+	max-width: 1340px;
+	min-width: 1340px;
+	background:#141414;
+}
+
+#tribe-events-content{
+	margin:0;
+	background: white;
+	color: black;
+	width: 1000px;
+	margin-left:80px;
+	font-size: 20px;
+	border: 3px solid #393670;
+}
+
+
+#tribe-events{
+	color: red;
+}
+
+/*--------------Project Home Page Start------------------*/
+
+.List_of_Projects ul{
+	list-style: none;
+	display:inline;
+	color: white;
+}
+
+.List_of_Projects ul li{
+	float:left;
+	display:inline;
+	margin: 15px;
+	width: 130px;
+	height: 130px;
+	border: solid 2px #393670;
+}
+
+.List_of_Projects ul li a:link,
+.List_of_Projects ul li a:visited{
+	display:block;
+	text-decoration: none;
+	color:#a7aaf6;
+}
+
+.List_of_Projects ul li a:hover{
+	color: white;
+}
+/*------------ Project Home Page End-----------*/
+
+/*----------------Project-Page Start------------------*/
+
+#LeftMenu{
+	background:#130E23;
+	float:left;
+	border: solid 3px #868BF3;
+	padding-top: 10px;
+}
+
+#LeftMenu ul{
+	margin: 0;
+	padding: 0;
+}
+
+#LeftMenu ul li{
+	list-style: none;	
+	margin: 10px;
+	padding-right: 20px;
+	border-bottom: solid 1px #242954;
+}
+
+#LeftMenu ul li a:link,
+#LeftMenu ul li a:visited{
+	text-decoration: none;
+	color: #a7aaf6;
+	margin: 0;
+}
+
+#LeftMenu ul li.current-menu-item a:link,
+#LeftMenu ul li.current-menu-item a:visited{
+	text-decoration: none;
+	color: white;
+	margin: 0;
+}
+
+#LeftMenu ul li:last-child{
+	text-decoration: none;
+	color: #a7aaf6;
+	border-bottom: none;
+}
+
+#LeftMenu ul li a:hover{
+	color:#EEE;
+}
+
+#Main_Content{
+	float:left;
+	margin-left:30px;
+	display: inline;
+	width:780px;
+	height:1000px;
+	border:solid 3px #868BF3;
+	background: #130E23;
+}
+#Project_Modal{
+	display:none;
+	position:fixed;
+	z-index: 1;
+	padding-top: 100px;
+	padding: 20px;
+	margin-left: 30px;
+}
+
+
+#Project_Updating_Form{
+	position: relative;
+	background-color: white;
+	padding: 10px;
+	border: 1px solid #868BF3;
+	width: 80%;
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+	margin:5px;
+	width:380px;
+	height:150px;
+}
+
+#Modal_Button{
+	display: block;
+	margin:5px;
+	
+}
+
+@-webkit-keyframes animatetop{
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1} 
+}
+
+@keyframes animatetop{
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1} 
+}
+
+#Project_Updating_Form .UploadFields{
+	margin-bottom:15px;
+}
+
+#Project_Section{
+	margin:20px;
+	margin-left: 95px;
+	display: block;
+	border: solid 7px #ababab;
+	width: 600px;
+	height: 400px;
+	background: #fcfcfc;
+}
+#Project_Section .Project_Title{
+	font-size: 20px;
+	padding:10px;
+	display:relative;
+	color: black;
+	text-align: center;
+}
+
+#Project_Section .Project_Img{
+	display: block;
+	margin-left: 195px;
+	width:200px;
+	height:200px;
+	border: solid 1px #e8e8e8;
+}
+
+.Project_Img img{
+	width:200px;
+	height:200px;
+}
+
+#Project_Section .Project_Description{
+	padding-top: 10px;
+	padding-left:60px;
+	width: 500px;
+	height: 200px;
+	font-size:16px;
+	font-family: 'Garamond';
+	color: black;
+}
+
+
+#Article_Section{
+	padding-top:15px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+#Article_Section .Article_Description{
+	font-family: "AGaramondPro-Regular";
+	font-size: 18px;
+	color:white;
+}
+
+#Article_Section .Article_Title{
+	font-family: "Celtic Garamond the 2nd";
+	font-size:30px;
+	color: #868BF3;
+}
+/*------------ Project-Page End ------------*/
+
+/*------------Blog-Page---------------------*/
+.Page_Post-Blog{
+	float:left;
+	margin-left:40px;
+	display: inline;
+	width:780px;
+	height:1000px;
+	border:solid 3px #868BF3;
+	background: #130E23;
+	color: #e1e5f2;
+}
+
+.Page_Title-Blog{
+	font-family:'Garamond';
+	font-size: 25px;
+	color: #e1e5f2;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right:20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid white;
+}
+
+.Page_Post-Blog h1{
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
+
+.Page_Title-Blog a:link,
+.Page_Title-Blog a:visited{
+	text-decoration: none;
+	color: #e1e5f2;
+	margin: 0;
+}
+
+.Tag_Section-Blog{
+	float: right;
+	display: inline;
+	width:270px;
+	height:1000px;
+	border-left:solid 3px #868BF3;
+	font-family: 'Garamond';
+	font-size:16px;
+}
+
+.Tag_Section-Blog{
+	color:#e1e5f2;
+}
+
+/*------------ Footer Start -------------*/
+footer{
+	padding-top: 50px;
+	clear: both;
+	background: #141423;
+	position: relative;
+	height:50px;
+}
+
+#links img{
+	width:25px;
+	height:25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	float: left;
+}
+
+#FAQ li{
+	color: #a7aaf6;
+	display: inline;
+	float: left;
+	padding-left:300px;
+	list-style:none;
+	font-size: 17px;
+	font-family: "Celtic Garamond the 2nd";
+}
+
+#FAQ ul li a:link,
+#FAQ ul li a:visited {
+	text-decoration:none;
+	color: #a7aaf6;
+}
+
+#FAQ ul li a:hover{
+	color:white;
+}
+
+#FAQ ul li.current-menu-item a:link,
+#FAQ ul li.current-menu-item a:visited {
+	text-decoration:none;
+	color: white;
+}
+
+#Copyright{
+	float:right;
+	color:white;
+	padding-right:5px;
+}
